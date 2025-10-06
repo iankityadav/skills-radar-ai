@@ -9,24 +9,24 @@
     "test": "jest"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "multer": "^1.4.5",
     "cors": "^2.8.5",
-    "helmet": "^7.0.0",
-    "express-rate-limit": "^6.10.0",
-    "winston": "^3.10.0",
-    "dotenv": "^16.3.1",
-    "passport": "^0.6.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "langchain": "^0.3.35",
+    "multer": "^2.0.2",
+    "openai": "^6.1.0",
+    "passport": "^0.7.0",
     "passport-github2": "^0.1.12",
-    "express-session": "^1.17.3",
-    "langchain": "^0.0.147",
-    "openai": "^4.0.0",
-    "pdf-parse": "^1.1.1",
-    "joi": "^17.9.2"
+    "pdf-parse": "^2.1.7",
+    "winston": "^3.18.3"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1",
-    "jest": "^29.6.4"
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.10"
   },
   "keywords": [
     "ai",
